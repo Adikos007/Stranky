@@ -1,0 +1,17 @@
+<?php
+class car{
+    public $name;
+    public $color;
+    
+    public function __construct($name , $color) {
+        $this->name = $name;
+        $this->color = $color;
+    }
+    
+}
+$car = new car("auto" , "red");
+echo $car->name;
+echo "\n";
+$car2 = new car("Skoda", "black");
+echo $car2->name;
+?>
